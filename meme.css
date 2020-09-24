@@ -1,0 +1,183 @@
+.w {
+    margin: auto;
+}
+.picc{
+    height: 400px;
+    background:url(images/pic1.jpg) no-repeat;
+    background-size: 1050px 400px;
+}
+.firstcontent  {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    line-height: 10px;
+}
+.header {
+    position: sticky;top: 0;
+    height: 55px;
+    background:url(images/MegaTron.jpg);
+    /* 会层叠w中的margin */
+    margin: 10px auto;
+    box-shadow: 10px 10px 10px -4px rgba(0,0,0,.3);
+}
+li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+/* 清除浮动 上部有浮动记得class=“clearfix”*/
+.clearfix:before,.clearfix:after {
+    content: "";
+    display: table;
+}
+.clearfix:after {
+    clear:both;
+}
+.clearfix {
+    *zoom: 1;
+}
+
+.fixaction {
+    z-index: 1;
+    position: fixed;
+    bottom: 50px;
+    right: 2px;
+    height: 100px;
+    width: 100px;
+    background:url(images/weixin.jpg);
+    background-size: 100px;
+    box-shadow: 10px 10px 10px -4px rgba(0,0,0,.3);
+}
+.logo {
+    float: left;
+    width: 198px;
+    height: 55px;
+    background-color:whitesmoke;
+    /* background-image: url();
+    background-repeat: no-repeat; */
+}
+.nav {
+    float: left;
+    /* 导航栏和logo的距离 */
+    margin-left: 30px;
+    background:transparent;
+}
+.nav ul li {
+    /* 导航栏横向排列 */
+    float: left;
+    /* 导航栏li的间距 */
+    margin: 0 25px;
+}
+.nav ul li a{
+    display: block;
+    height: 30px;
+    padding: 0 10px;
+    line-height: 30px;
+    font-size: 18px;
+    color: #050505;
+}
+.nav ul li a:hover {
+    color:rgb(255, 192, 20);
+    border-bottom: 2px solid rgb(255, 192, 20);
+}
+.main h2 {
+    color: wheat;
+    text-align: center;
+}
+.main p {
+    color: #333333;
+    text-align: center;
+}
+.main p a {
+    color: wheat;
+}
+.main p a:hover {
+    color:darkblue;
+}
+.main .box {
+    height: 530px;
+    background:transparent;
+}
+
+.main .box .boxbody ul li {
+    float: left;
+    width: 300px;
+    height: 440px;
+    background-color: transparent;
+    margin-right: 20px;
+    margin-bottom: 15px;
+    border-radius: 30px;
+    box-shadow: 10px 10px 10px -4px rgba(0,0,0,.3);
+}
+.main .box .boxbody ul li img {
+    height: 190px;
+    width: 300px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
+.main .box .boxbody ul li h4 {
+    margin-top: 2px;
+}
+.main .box .boxbody ul li p {
+    text-align: left;
+    text-indent: 2em;
+}
+.main .rest {
+    height: 100px;
+    background:transparent;
+}
+.footer {
+    height: 270px;
+}
+.e {
+    position: relative;
+    height: 250px;
+    width: 1050px;
+    background-image: url(images/bggg.jpg);
+}
+.e:hover {
+    box-shadow: 10px 10px 10px -4px rgba(0,0,0,.3);
+}
+.copyright {
+    float: left;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+.copyright img {
+    height: 90px;
+    width: 250px;
+}
+.copyright p {
+     font-size: 12px;
+     color: #666666;
+     margin: 20px 0 15px 0;
+}
+.links {
+    float: left;
+    margin-top: 40px;
+}
+.links dl {
+    float: left;
+    margin-left: 90px;
+}
+.links dl dt {
+    font-size: 16px;
+    color: #333333;
+    margin-bottom: 5px;
+}
+.links dl dd {
+    font-size: 12px;
+    color: #333333;
+}
+dd {
+    margin-inline-start: 5px;
+}
+.lastline {
+    position: absolute;
+    bottom: 5px;
+    right: 450px;
+}
+.lastline p {
+    font-size: 8px;
+    color: rgb(92, 88, 104);
+}
